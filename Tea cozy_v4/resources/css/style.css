@@ -1,0 +1,170 @@
+/* BODY */ 
+body {
+	background-color: black;
+	/*text*/
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+}
+
+/* HEADER */
+header {
+	background-color: black;
+	/*display*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*dimensions*/
+	width: 100%;
+	height: 69px;
+	/*position*/
+	z-index: 2;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	border-bottom: 1px solid seashell;
+}
+header .logo img, 
+header nav a {
+	/*dimensions*/
+	height: 50px;
+	padding: 10px;
+	/*text*/
+	color: white;
+}
+
+/* MAIN CONTENT */
+.maincontent {
+	/*display*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*position*/
+	position: relative;
+	top: 70px;
+	left: 0px;
+}
+
+/* 1 - OUR MISSION */
+.ourmission {
+	background-image: url(../img/img-mission-background.jpg);
+	/*display*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*dimensions*/
+	width: 1200px;
+	height: 700px;
+	/*text*/
+	text-align: center;
+}
+.ourmission .text {
+	background-color: black;
+}
+.ourmission .text h2,
+.ourmission .text h4 {
+	margin: 0px;
+	padding: 10px;	
+}
+
+/* 2 - TEA OF THE MONTH */
+.teaofthemonth {
+	/*display*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*position*/
+	position: relative;
+	top: 70px;
+	/*text*/
+	text-align: center;
+}
+.teaofthemonth .text h2,
+.teaofthemonth .text h4 {
+	margin: 0px;
+	padding: 10px;	
+}
+.teaofthemonth .img1,
+.teaofthemonth .img2 {
+	/*display*/
+	display: flex;
+	justify-content: center;
+	/*dimensions*/
+	width: 1000px;
+}
+.teaofthemonth .img1 .box,
+.teaofthemonth .img2 .box {
+	/*display*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*dimensions*/
+	width: 300px;
+	height: 235px;
+	margin: 15px;
+}
+.teaofthemonth .img1 .box img,
+.teaofthemonth .img2 .box img {
+	/*dimensions*/
+	width: 300px;
+	height: 200px;
+}
+
+/* 3 - LOCATIONS */
+.locations {
+	background-image: url(../img/img-locations-background.jpg);
+	/*display*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*position*/
+	position: relative;
+	top: 140px;
+	/*dimensions*/
+	width: 1200px;
+	height: 550px;
+	/*text*/
+	text-align: center;
+}
+.locations .text h2 {
+	margin: 0px;
+}
+.locations .img {
+	/*display*/
+	display: flex;
+	justify-content: center;
+}
+.locations .img .box {
+	background-color: black;
+	opacity: 1;
+	/*display*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/*dimensions*/
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+}
+
+/* FOOTER */
+footer {
+	/*position*/
+	position: relative;
+	top: 210px;
+	/*dimensions*/
+	height: 200px;
+	/*text*/
+	text-align: center;
+}
+
+/* COPYRIGHT */
+.copyright {
+	/*position*/
+	position: relative;
+	top: 210px;
+	/*dimension*/
+	margin-left: 20px;
+}
